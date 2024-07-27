@@ -1,0 +1,116 @@
+@import url(fonts.css);
+:root {
+    --bg-color: #fff;
+    --text-color: #000;
+    --card-bg: #f0f0f0;
+    --button-bg: #007BFF;
+    --button-text: #fff;
+    --toggle-bg: #ccc;
+    --toggle-text: #000;
+}
+
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #fff;
+    --card-bg: #1e1e1e;
+    --button-bg: #0062cc;
+    --button-text: #fff;
+    --toggle-bg: #444;
+    --toggle-text: #fff;
+}
+
+body {
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+}
+
+.button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    text-align: justify;
+    background-color: var(--card-bg);
+    flex: 1 1 calc(33.333% - 40px);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s, transform 0.3s;
+    -webkit-transition: box-shadow 0.3s, transform 0.3s;
+    -moz-transition: box-shadow 0.3s, transform 0.3s;
+    -ms-transition: box-shadow 0.3s, transform 0.3s;
+    -o-transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 0 15px rgba(255, 0, 150, 0.5);
+    transform: translateY(-10px);
+}
+
+.toggle-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.toggle-button {
+    background-color: var(--toggle-bg);
+    color: var(--toggle-text);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.content {
+    padding: 20px;
+    background-color: var(--card-bg);
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex: 1 1 calc(100% - 40px);
+    }
+}

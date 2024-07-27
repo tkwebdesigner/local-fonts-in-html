@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto-sans/NotoSans-BlackItalic.woff2') format('woff2'),
+        url('../fonts/noto-sans/NotoSans-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto-sans/NotoSans-Black.woff2') format('woff2'),
+        url('../fonts/noto-sans/NotoSans-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto-sans/NotoSans-Bold.woff2') format('woff2'),
+        url('../fonts/noto-sans/NotoSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto-sans/NotoSans-ExtraBold.woff2') format('woff2'),
+        url('../fonts/noto-sans/NotoSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto-sans/NotoSans-BoldItalic.woff2') format('woff2'),
+        url('../fonts/noto-sans/NotoSans-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto-sans/NotoSans-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/noto-sans/NotoSans-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto-sans/NotoSans-Light.woff2') format('woff2'),
+        url('../fonts/noto-sans/NotoSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto-sans/NotoSans-Italic.woff2') format('woff2'),
+        url('../fonts/noto-sans/NotoSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto-sans/NotoSans-LightItalic.woff2') format('woff2'),
+        url('../fonts/noto-sans/NotoSans-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto-sans/NotoSans-Medium.woff2') format('woff2'),
+        url('../fonts/noto-sans/NotoSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto-sans/NotoSans-Regular.woff2') format('woff2'),
+        url('../fonts/noto-sans/NotoSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto-sans/NotoSans-MediumItalic.woff2') format('woff2'),
+        url('../fonts/noto-sans/NotoSans-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto-sans/NotoSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/noto-sans/NotoSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/noto-sans/NotoSans-SemiBoldItalic.woff2') format('woff2'),
+        url('../fonts/noto-sans/NotoSans-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
